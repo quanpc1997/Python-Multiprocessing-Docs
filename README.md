@@ -20,10 +20,10 @@ Process là tiến trình để chạy một phần mềm. Khi bạn khởi đ�
 Trong python thì process và thread cùng kế thừa chung một interface là một base thread. Chúng sẽ có những đặc tính chung, nhưng thread là một phiên bản nhẹ hơn so với process. Do đó việc khởi tạo thread sẽ nhanh hơn. Một điểm khác biệt nữa đó là thread được thiết kế để có thể hoạt động tương tác lẫn nhau. Các threads trong cùng một process sẽ chia sẻ được dữ liệu qua lại nên có lợi thế về I/O. Dữ liệu của process thì được thiết kế private nên một process không thể chia sẻ dữ liệu với các process khác. Đây là lý do chúng ta cần nhiều threads hoạt động trong một process.
 
 ## II. Threads trong python.
-### [1. Khởi tạo](.\khoi-tao-thread.md)
-### [2. ThreadPoolExcutor](.\thread-pool-excutor.md)
-### [3. Cơ chế bất đồng bộ - asynchronous](.\asynchronous.md)
-### [4. Cơ chế đồng bộ - synchronous](.\synchronous.md)
+### [1. Khởi tạo](khoi-tao-thread.md)
+### [2. ThreadPoolExcutor](thread-pool-excutor.md)
+### [3. Cơ chế bất đồng bộ - asynchronous](asynchronous.md)
+### [4. Cơ chế đồng bộ - synchronous](synchronous.md)
 
 ## Reference:
 [Realpython](https://realpython.com/intro-to-python-threading/)

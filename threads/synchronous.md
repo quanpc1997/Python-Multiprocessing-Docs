@@ -188,6 +188,11 @@ print("acquired lock twice")
 ### e. Producer-Consumer Threading
 
 ### f. Threading Objects
+Có một vài kiểu Threading. Bao gồm:
+- Semaphore
+- Timer
+- Barrier
+(Search GG thêm khi cần)
 
 #### Reference 
 [Realpython](https://realpython.com/intro-to-python-threading/)

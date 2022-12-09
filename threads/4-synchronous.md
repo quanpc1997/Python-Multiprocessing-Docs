@@ -185,13 +185,12 @@ print("acquired lock twice")
 # acquired lock twice
 ```
 
-### e. Producer-Consumer Threading
-
 ### f. Threading Objects
 Có một vài kiểu Threading. Bao gồm:
 - Semaphore
 - Timer
 - Barrier
+
 (Search GG thêm khi cần)
 
 #### Reference 
